@@ -1,0 +1,160 @@
+@import "fonts";
+@import "reset";
+@import "header";
+@import "promobox";
+@import "statistics";
+@import "advertisemeent";
+@import "services";
+@import "projects";
+@import "processes";
+@import "tools";
+@import "experience";
+@import "feedback";
+@import "footer";
+@import "slick";
+
+*, *:after, *:before {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Open Sans", sans-serif;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+
+.consult-btn {
+    display: none;
+    min-width: 276px;
+    border-radius: 46px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 12px 35px;
+    background: rgba(0, 153, 125, 0.79);
+    transition: all .3s ease-in-out;
+
+    &:hover {
+        background: #ffffff;
+        color: rgba(0, 153, 125, 0.79);
+
+    }
+}
+
+.consult-btn--black {
+    display: inline-block;
+    min-width: 195px;
+    font-size: 12px;
+    padding: 11px 24px;
+    background: #000000;
+    color: #ffffff;
+    border: 2px solid transparent;
+
+    &:hover {
+        color: #000000;
+        background: #ffffff;
+        border: 2px solid #000000;
+    }
+}
+
+.centred-btn {
+    margin: 0 auto;
+}
+
+.nav-arrow {
+    display: block;
+    width: 32px;
+    height: 54px;
+    background: url("../icons/sprite.svg#arrow");
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.learn-more-button {
+    display: none;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    margin-top: auto;
+    position: relative;
+
+    &:after {
+        content: url("../icons/arrow-right.svg");
+        position: absolute;
+        top: 0;
+        right: 10px;
+    }
+
+    &:before {
+        content: url("../icons/cloud.svg");
+        position: absolute;
+        top: -7px;
+        left: 15px;
+    }
+}
+
+.slick-dots {
+    display: flex;
+    font-size: 0;
+    justify-content: center;
+    align-items: flex-end;
+    width: 290px;
+    margin: 0 auto;
+    border-bottom: 1px solid #017B6566;
+
+
+    li {
+        margin-right: 5px;
+    }
+}
+
+.slick-dots button {
+    width: 14px;
+    height: 1px;
+    padding: 0;
+    border: 1px solid #017B6566
+}
+
+.slick-active button {
+    border: 3px solid #017B65;
+    opacity: 1;
+}
+
+@media all and(min-width: 1024px){
+    .container {
+        padding: 0 45px;
+    }
+
+    .consult-btn {
+        display: inline-block;
+    }
+
+    .promo-box__arrow {
+        top: 80%;
+        left: 50%;
+        transform: translateX(-16px);
+    }
+
+    .learn-more-button {
+        display: block;
+    }
+}

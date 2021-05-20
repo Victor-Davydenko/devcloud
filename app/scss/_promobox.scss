@@ -1,0 +1,41 @@
+.promo-box {
+    width: 100%;
+    height: 100vh;
+    background: url("../images/main_bg.jpg") no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+
+    &__content {
+        text-align: center;
+    }
+
+    &__title {
+        display: none;
+        font-weight: 300;
+        font-size: 72px;
+        line-height: 98px;
+        letter-spacing: 8px;
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 35px;
+        margin-bottom: 64px;
+    }
+
+    &__arrow {
+        position: absolute;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+
+@media all and(min-width: 1024px){
+    .promo-box__title {
+        display: block;
+    }
+}

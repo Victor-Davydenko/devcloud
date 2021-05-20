@@ -1,0 +1,32 @@
+.experience {
+    .slider--experience {
+
+        .slider {
+
+            &__slide-title {
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 24px;
+                margin-bottom: 15px;
+                position: relative;
+                color: #000000;
+
+                &:after {
+                    content: '';
+                    display: none;
+                    position: absolute;
+                    width: 237px;
+                    height: 1px;
+                    background: #29A28C;
+                    bottom: -30px;
+                    left: -15px;
+                }
+            }
+        }
+    }
+
+    .slick-dots {
+        border: none;
+    }
+}
+

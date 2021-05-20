@@ -1,0 +1,31 @@
+.icons {
+    padding: 25px 0;
+
+    .section-title--desktop {
+        display: none;
+    }
+
+    .icons-wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    &__item-wrapper {
+        flex-basis: 21%;
+        max-height: 56px;
+        max-width: 56px;
+        margin-bottom: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .icons__item {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+}
+
+

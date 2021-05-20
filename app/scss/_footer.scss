@@ -1,0 +1,94 @@
+.footer {
+    padding: 32px 0;
+
+    .footer-logo {
+        margin-bottom: 40px;
+    }
+
+    .address {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 23px;
+        text-transform: uppercase;
+        position: relative;
+        padding-left: 30px;
+
+        &:before {
+            content: url("../icons/geo.svg");
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+    }
+
+    &__contacts-section {
+        .phones {
+            padding-left: 30px;
+            position: relative;
+            max-width: 150px;
+            margin-bottom: 15px;
+
+            .phone {
+                text-decoration: none;
+                color: #000000;
+                font-weight: 300;
+                font-size: 13px;
+                line-height: 23px;
+            }
+
+            &:before {
+                content: url("../icons/phone.svg");
+                position: absolute;
+                left: 0;
+                top: 10px;
+            }
+        }
+
+        .email {
+            padding-left: 30px;
+            position: relative;
+            margin-bottom: 25px;
+
+            &__link {
+                text-decoration: none;
+                color: #000000;
+                text-transform: uppercase;
+            }
+
+            &:before {
+                content: url("../icons/email.svg");
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+
+        .messengers {
+            .whatsapp, .telegram {
+                padding-left: 30px;
+                position: relative;
+                text-decoration: none;
+                color: #000000;
+                text-transform: uppercase;
+            }
+
+            .whatsapp:before {
+                content: url("../icons/whatsapp.svg");
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+
+            .telegram:before {
+                content: url("../icons/telegram.svg");
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+    }
+
+    &__nav {
+        display: none;
+    }
+}
