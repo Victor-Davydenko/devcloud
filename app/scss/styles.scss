@@ -28,7 +28,9 @@ html {
 }
 
 
-
+.consult-btn-wrapper {
+    text-align: center;
+}
 
 .consult-btn {
     display: none;
@@ -139,6 +141,33 @@ html {
     opacity: 1;
 }
 
+.slick-arrow {
+    position: absolute;
+    font-size: 0;
+    border: none;
+    &:before {
+        content: '';
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+    }
+}
+
+.slick-next {
+    top: 100px;
+    right: 50px;
+    transform: rotate(135deg);
+}
+
+.slick-prev {
+    top: 100px;
+    left: 50px;
+    transform: rotate(-45deg);
+}
+
+
 @media all and(min-width: 1024px){
     .container {
         padding: 0 45px;
@@ -156,5 +185,11 @@ html {
 
     .learn-more-button {
         display: block;
+    }
+
+    .section-title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 54px;
     }
 }

@@ -30,3 +30,37 @@
     }
 }
 
+@media screen and(min-width: 1024px) {
+    .experience {
+        max-width: 1500px;
+        margin: 0 auto;
+
+        .slider {
+
+            &__slide {
+                margin-right: 15px;
+            }
+
+            &__picture-wrapper {
+                width: 307px;
+                height: 218px;
+            }
+
+            .container {
+                padding: 0;
+            }
+
+            .slider__slide-title {
+                font-weight: 700;
+                font-size: 23px;
+                line-height: 31px;
+            }
+
+            .slider__slide-text {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 20px;
+            }
+        }
+    }
+}

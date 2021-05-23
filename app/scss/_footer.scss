@@ -1,6 +1,17 @@
 .footer {
     padding: 32px 0;
 
+    .footer__inner {
+        position: relative;
+    }
+
+    .nav-arrow--footer {
+        background: url("../icons/arrow-footer.svg");
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
     .footer-logo {
         margin-bottom: 40px;
     }
@@ -90,5 +101,41 @@
 
     &__nav {
         display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .footer {
+        &__inner {
+            display: flex;
+            align-items: center;
+            max-height: 150px;
+        }
+
+        &__nav {
+            display: block;
+
+            .nav {
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                height: 110px;
+
+                &__item {
+                    margin:0 125px 20px 0;
+                }
+
+                &__link {
+                    text-decoration: none;
+                    color: #000000;
+                }
+
+            }
+
+        }
+
+        &__contacts-section {
+            margin: 0 120px;
+        }
     }
 }

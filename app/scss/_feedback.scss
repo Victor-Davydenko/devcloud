@@ -81,6 +81,41 @@
                 border-radius: 13px;
                 height: 87px;
                 padding: 5px;
+                resize: none;
+                position: relative;
+            }
+        }
+
+        .textarea-wrapper {
+            position: relative;
+
+
+            &:after {
+                content: '';
+                width: 35px;
+                height: 35px;
+                border-radius: 3px;
+                border: 1px solid #ffffff;
+                position: absolute;
+                right: 10px;
+                bottom: 10px;
+                background: url("../icons/attach-btn.svg") no-repeat center;
+                background-size: contain;
+                cursor: pointer;
+            }
+
+            &:before {
+                content: '';
+                width: 35px;
+                height: 35px;
+                border-radius: 3px;
+                border: 1px solid #ffffff;
+                position: absolute;
+                right: 50px;
+                bottom: 10px;
+                background: url("../icons/send-btn.svg") no-repeat center;
+                background-size: contain;
+                cursor: pointer;
             }
         }
     }
@@ -132,4 +167,36 @@
     #rating-3:checked ~ .emoji-wrapper > .emoji { transform: translateY(-300px); }
     #rating-4:checked ~ .emoji-wrapper > .emoji { transform: translateY(-400px); }
     #rating-5:checked ~ .emoji-wrapper > .emoji { transform: translateY(-500px); }
+}
+
+
+@media screen and (min-width: 1024px){
+    .feedback {
+        display: flex;
+
+        &__content {
+            flex-basis: 45%;
+        }
+
+        &__form-wrapper {
+            flex-basis: 55%;
+            padding-left: 100px;
+            padding-right: 100px;
+
+            .input-wrapper {
+                .input-message {
+                    padding: 5px 85px 5px 5px;
+                }
+            }
+
+            .input-contact-wrapper {
+                display: flex;
+                flex-direction: row-reverse;
+
+                .input-wrapper:last-child {
+                    margin-right: 65px;
+                }
+            }
+        }
+    }
 }

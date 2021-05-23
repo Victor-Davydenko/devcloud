@@ -43,6 +43,11 @@
 @media all and (min-width: 1024px){
     .advertisement {
         display: flex;
+        padding: 0 100px;
+
+        .container:first-child {
+            display: none;
+        }
 
         &__slogan--desktop {
             display: none;
@@ -55,7 +60,6 @@
         &__picture-wrapper {
             flex-basis: 50%;
             min-width: 50%;
-            margin-left: -45px;
             height: 583px;
         }
 

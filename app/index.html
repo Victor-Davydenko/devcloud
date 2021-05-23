@@ -82,7 +82,9 @@
                             DEVCLOUD SOLUTIONS
                         </h1>
                         <p class="promo-box__subtitle">Компания по разработке програмного обеспечения</p>
-                        <a class="consult-btn" href="#">Запросить консультацию</a>
+                        <div class="consult-btn-wrapper">
+                            <a class="consult-btn" href="#">Запросить консультацию</a>
+                        </div>
                         <a class="nav-arrow promo-box__arrow"></a>
                     </div>
                 </div>
@@ -138,7 +140,9 @@
                         <h2 class="advertisement__sub-slogan">
                             Мы просто умеем разрабатывать то, что нужно. То, что будет работать!
                         </h2>
-                        <a class="consult-btn consult-btn--black centred-btn" href="#">Запросить консультацию</a>
+                        <div class="consult-btn-wrapper">
+                            <a class="consult-btn consult-btn--black" href="#">Запросить консультацию</a>
+                        </div>
                         <p class="advertisement__desktop-text">
                             С 2010 года профессионально разрабатываем успешные мобильные и веб-решения, индивидуальные программные решения, информационные системы и ПО для бизнеса, которые повышают эффективность бизнеса.
                         </p>
@@ -192,7 +196,7 @@
             </section>
             <section class="our-projects">
                 <h3 class="section-title">Наши проекты</h3>
-                <div class="slider">
+                <div class="slider our-projects-slider">
                     <div class="slider__slide">
                         <div class="slider__slide-wrapper">
                             <div class="slider__picture-wrapper">
@@ -339,115 +343,157 @@
                     </div>
 
                 </div>
-                <a class="consult-btn consult-btn--black centred-btn" href="#">Посмотреть все проекты</a>
+                <div class="consult-btn-wrapper">
+                    <a class="consult-btn consult-btn--black centred-btn" href="#">Посмотреть все проекты</a>
+                </div>
             </section>
             <section class="processes">
                 <h3 class="section-title">
                     Наш процесс работы
                 </h3>
-                <div class="slider">
+                <div class="slider processes-slider">
                     <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
-                        </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
                     </div>
                     <div class="slider__slide">
-                        <div class="slider__picture-wrapper">
-                            <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
-                        <div class="container">
-                            <h3 class="slider__slide-title">
-                                1. Мастерская открытий
-                            </h3>
-                            <p class="slider__slide-text">
-                                Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
-                            </p>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider__slide">
+                        <div class="slider__slide-wrapper">
+                            <div class="slider__picture-wrapper">
+                                <img class="picture" src="images/processesSlider.jpg" alt="slide">
+                            </div>
+                            <div class="container">
+                                <h3 class="slider__slide-title">
+                                    1. Мастерская открытий
+                                </h3>
+                                <p class="slider__slide-text">
+                                    Мы придаем первостепенное значение пониманию и документированию входов, предпочтений клиентов, дизайна и брендов. И проясните все открытые моменты, чтобы получить точное и ясное представление о целях как клиентов, так и проекта. Мы работаем в рамках совместного подхода с участием  заинтересованных сторон, чтобы согласовать бизнес-процессы.
+                                </p>
+                                <a href="#" class="learn-more-button">
+                                    Узнать больше
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -565,46 +611,59 @@
                             </p>
                         </div>
                     </div>
+                    <div class="slider__slide">
+                        <div class="slider__picture-wrapper">
+                            <img class="picture" src="images/classroom.jpg" alt="slide">
+                        </div>
+                        <div class="container">
+                            <h3 class="slider__slide-title">
+                                Обучение
+                            </h3>
+                            <p class="slider__slide-text">
+                                Корпоративное решение для организаций, осуществляющих обучение и тестирование персонала. Веб-приложение для администрирования обучения сотрудников - с возможностью создания учебных курсов, практических и тестовых заданий, отслеживания прогресса учеников.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <section class="icons">
                 <div class="container">
                     <h3 class="section-title">С кем мы работаем</h3>
                     <div class="icons-wrapper">
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/cola.svg" alt="cola">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/lines.svg" alt="lines">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/bi_group.svg" alt="bi">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/act.svg" alt="act">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/copyland.svg" alt="copyland">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/compix.svg" alt="compix">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/fotoleca.svg" alt="fotoleca">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/master.svg" alt="master">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/dan.svg" alt="dan">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/sarzan.svg" alt="sarzan">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/ffc.svg" alt="ffc">
                         </div>
-                        <div class="icons__item-wrapper">
+                        <div class="icons__item-wrapper icons__item-wrapper--bigger">
                             <img class="icons__item" src="icons/sunflower.svg" alt="sunflower">
                         </div>
                     </div>
@@ -648,13 +707,15 @@
                         <div class="input-wrapper">
                             <input class="form-input" type="text" placeholder="Имя">
                         </div>
-                        <div class="input-wrapper">
-                            <input class="form-input" type="text" placeholder="Телефон">
+                        <div class="input-contact-wrapper">
+                            <div class="input-wrapper">
+                                <input class="form-input" type="text" placeholder="Телефон">
+                            </div>
+                            <div class="input-wrapper">
+                                <input class="form-input" type="text" placeholder="E-mail">
+                            </div>
                         </div>
-                        <div class="input-wrapper">
-                            <input class="form-input" type="text" placeholder="E-mail">
-                        </div>
-                        <div class="input-wrapper">
+                        <div class="input-wrapper textarea-wrapper">
                             <textarea class="form-input input-message" placeholder="Напишите своё сообщение..."></textarea>
                         </div>
                     </form>
@@ -663,19 +724,21 @@
         </main>
         <footer class="footer">
             <div class="container">
-                <div class="footer__logo-section">
-                    <div class="logo footer-logo">
-                        <div class="logo__img"></div>
-                        <a class="logo__link logo__link--black" href="#">DEVCLOUD SOLUTIONS</a>
-                    </div>
-                    <div class="address">
-                        Алматы, Жамбыла 111
+                <div class="footer__inner">
+                    <div class="footer__logo-section">
+                        <div class="logo footer-logo">
+                            <div class="logo__img"></div>
+                            <a class="logo__link logo__link--black" href="#">DEVCLOUD SOLUTIONS</a>
+                        </div>
+                        <div class="address">
+                            Алматы, Жамбыла 111
+                        </div>
                     </div>
                     <div class="footer__contacts-section">
                         ​<div class="phones">
-                            <a class="phone" href="tel:+77273342145​">​+7 (727) 334-21-45​</a>​
-                            <a class="phone" href="tel:+77079989390">+7 (707) 998-93-90</a>
-                        </div>
+                        <a class="phone" href="tel:+77273342145​">​+7 (727) 334-21-45​</a>​
+                        <a class="phone" href="tel:+77079989390">+7 (707) 998-93-90</a>
+                    </div>
                         <div class="email">
                             <a class="email__link" href="mailto:info@devcloud.kz">
                                 info@devcloud.kz
@@ -708,6 +771,7 @@
                             </li>
                         </ul>
                     </div>
+                    <a class="nav-arrow nav-arrow--footer"></a>
                 </div>
             </div>
         </footer>

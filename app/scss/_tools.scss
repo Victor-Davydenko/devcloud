@@ -28,4 +28,32 @@
     }
 }
 
+@media all and (min-width: 1024px){
+    .icons {
 
+        .section-title {
+            display: none;
+        }
+
+        .section-title--desktop {
+            display: block;
+        }
+
+        &__item-wrapper {
+            max-height: 90px;
+            max-width: 11%;
+            margin-bottom: 125px;
+
+            .icons__item {
+                max-width: 90px;
+                max-height: 90px;
+                object-fit: contain;
+            }
+        }
+
+        &__item-wrapper--bigger {
+            max-width: 16%;
+        }
+    }
+
+}
