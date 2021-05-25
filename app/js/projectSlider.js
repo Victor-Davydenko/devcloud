@@ -8,7 +8,7 @@ $(document).ready(function(){
       {
         breakpoint:768,
         settings:{
-          slidesToShow:1,
+          slidesToShow:2,
           dots:true,
           arrows:false
         }
@@ -65,6 +65,14 @@ $(document).ready(function(){
         }
       },
       {
+        breakpoint:1024,
+        settings:{
+          slidesToShow:2,
+          dots:true,
+          arrows:false
+        }
+      },
+      {
         breakpoint:1921,
         settings:{
           slidesToShow:4,
@@ -74,3 +82,23 @@ $(document).ready(function(){
     ]
   });
 });
+
+
+// $(document).ready(function(){
+//   $('.services__card-wrapper').slick({
+//     dots:true,
+//     arrows: false,
+//     autoplay:false,
+//     slidesToShow: 2.5,
+//     responsive: [
+//       {
+//         breakpoint:768,
+//         settings:{
+//           slidesToShow:1,
+//           dots:true,
+//           arrows:false
+//         }
+//       }
+//     ]
+//   });
+// });
